@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_03_28_095334) do
+ActiveRecord::Schema.define(version: 2022_03_30_045529) do
 
   create_table "books", force: :cascade do |t|
     t.text "title"
@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 2022_03_28_095334) do
     t.string "the_date_of_publication"
     t.string "status"
     t.text "summary"
+    t.string "group"
   end
 
 end
